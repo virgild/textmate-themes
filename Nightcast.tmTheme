@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Nightcast</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000</string>
+				<key>caret</key>
+				<string>#FFFFFF</string>
+				<key>foreground</key>
+				<string>#E6E1DC</string>
+				<key>invisibles</key>
+				<string>#404040</string>
+				<key>lineHighlight</key>
+				<string>#101D2D</string>
+				<key>selection</key>
+				<string>#5A647EE0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Source</string>
+			<key>scope</key>
+			<string>source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#676767</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword, storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E57724</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function (definition)</string>
+			<key>scope</key>
+			<string>entity.name.function, keyword.other.name-of-parameter.objc</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#B7F735</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class (definition)</string>
+			<key>scope</key>
+			<string>entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A5C261</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable.language, variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#85A1FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6D9CBE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant (other variable)</string>
+			<key>scope</key>
+			<string>variable.other.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DA4939</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant (built-in)</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6E9CBE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A5C261</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#DA4939</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library type</string>
+			<key>scope</key>
+			<string>support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6E9CBE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A5C261</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup tag</string>
+			<key>scope</key>
+			<string>meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E8BF6A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#990000</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String interpolation</string>
+			<key>scope</key>
+			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#519F50</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Add</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#144212</string>
+				<key>foreground</key>
+				<string>#E6E1DC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Remove</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#660000</string>
+				<key>foreground</key>
+				<string>#E6E1DC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Header</string>
+			<key>scope</key>
+			<string>meta.diff.header, meta.separator.diff, meta.diff.index, meta.diff.range</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2F33AB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Resume Section</string>
+			<key>scope</key>
+			<string>section.resume</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#3759DE</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFF4FA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Resume Paragraph</string>
+			<key>scope</key>
+			<string>para.resume</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8297B1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Resume Item</string>
+			<key>scope</key>
+			<string>item.resume</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E5E69B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Resume Period Title</string>
+			<key>scope</key>
+			<string>title.period.resume</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6D03A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Resume Period Location</string>
+			<key>scope</key>
+			<string>loc.period.resume</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#548ECA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Resume Period Organization</string>
+			<key>scope</key>
+			<string>org.period.resume</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E67535</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Resume Period Dates</string>
+			<key>scope</key>
+			<string>dates.period.resume</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3CE653</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RSpec Example</string>
+			<key>scope</key>
+			<string>source.ruby.rspec
+ meta.rspec.example
+ string.quoted.double.ruby,
+ source.ruby.rspec
+ meta.rspec.pending
+ string.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#FFC603</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Comment</string>
+			<key>scope</key>
+			<string>source.ruby
+comment.line.number-sign.ruby
+</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#27933B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Module Name</string>
+			<key>scope</key>
+			<string>source.ruby
+meta.module.ruby
+entity.name.type.module.ruby
+</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#3DA6E6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Class Name</string>
+			<key>scope</key>
+			<string>source.ruby
+meta.class.ruby
+entity.name.type.class.ruby
+</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E0E63C</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>0C0AAABA-1257-46EE-9B15-81C681123EA1</string>
+</dict>
+</plist>
